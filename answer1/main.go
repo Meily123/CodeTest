@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 /*
+Question :
 Apip meminjam uang di koperasi sebesar 10.000.000,koperasi memberikan bunga
 sebesar 10%.Apip memilih cicilan selama 12 bulan,buatkan koding perhitungan
 dengan golang

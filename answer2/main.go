@@ -2,6 +2,14 @@ package main
 
 import "fmt"
 
+/*
+Question :
+Alan merupakan seorang dosen di STMIK IB,dia ingin memberikan nilai kepada
+apip,dengan nilai Absensi =16 x hadir,nilai tugas harian = 70,nilai uts =80 dan nilai
+uas = 70,dengan bobot nilai Absensi = 10%(untuk 18 x hadir),Nilai tugas harian
+=20%,nilai uts = 30 % dan nilai uas =40%
+*/
+
 func nilaiBobot(nilai float64, persenBobot float64) float64 {
 	return nilai * (persenBobot / 100)
 }
